@@ -36,9 +36,6 @@ source demo/bin/activate
 pip install -r requirements.txt
 ```
 
-# Configure the environment variables
-Notion webpage for instructions:
-https://lopsided-zipper-e29.notion.site/ReviewGPT-57444b82eac643539e393b8fc34d2f38?pvs=4
 
 # Usage
 Run the following command to start the chat interface.
