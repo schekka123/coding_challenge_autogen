@@ -1,5 +1,5 @@
 ---
-title: Autogen Template
+title: Autogen
 emoji: 🔥
 colorFrom: indigo
 colorTo: green
@@ -8,13 +8,16 @@ pinned: false
 license: apache-2.0
 ---
 
-# Installation and Setup
-You will need Python, Conda, Docker (Optional for code-execution), Git, and a text editor installed.
+# Autogen
 
-First install python=3.11 and other 3rd party dependencies. If you have conda installed, you can run the following commands:
+## Installation and Setup
+
+You will need Python, Conda, Docker (optional for code execution), Git, and a text editor installed.
+
+First, install Python 3.11 and other third-party dependencies. If you have Conda installed, you can run the following commands:
 
 ```shell
-conda create --name demo python=3.11 -y
+conda create --name demo python=3.9 -y
 conda activate demo
 
 pip install -r requirements.txt
@@ -38,7 +41,7 @@ Notion webpage for instructions:
 https://lopsided-zipper-e29.notion.site/ReviewGPT-57444b82eac643539e393b8fc34d2f38?pvs=4
 
 # Usage
-Run the following command to start the chat interface. Change the logo files on the /public folder to change the logo.
+Run the following command to start the chat interface.
 
 ```shell
 chainlit run app.py

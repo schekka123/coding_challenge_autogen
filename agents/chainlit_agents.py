@@ -37,8 +37,8 @@ class ChainlitUserProxyAgent(UserProxyAgent):
     Wrapper for AutoGens UserProxy Agent. Simplifies the UI by adding CL Actions.
     """
     def get_human_input(self, prompt: str) -> str:
-        if prompt.startswith(
-            "Provide feedback to chat_manager. Press enter to skip and use auto-reply"
+        if prompt.endswith(
+            "Provide feedback to chat_manager. Choose any of the options below:"
         ):
             res = cl.run_sync(
                 ask_helper(

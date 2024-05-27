@@ -1,0 +1,15 @@
+booking_id,employee_id,flight_id,event_id,booking_time,status,employee_name,departure_airport,arrival_airport,departure_time,arrival_time,cost,layovers,airline
+,1,1,,,,Alice,JFK,MCO,2024-06-01 08:00,2024-06-01 11:00,300.0,0.0,Delta
+,1,105,,,,Alice,JFK,MCO,2024-06-02 08:00,2024-06-02 11:00,300.0,0.0,Delta
+,1,151,,,,Alice,MCO,JFK,2024-06-05 08:00,2024-06-05 11:00,300.0,0.0,Delta
+,1,53,,,,Alice,JFK,MCO,2024-06-02 08:00,2024-06-02 11:00,300.0,0.0,Delta
+,1,2,,,,Alice,MCO,JFK,2024-06-05 12:00,2024-06-05 15:00,300.0,0.0,Delta
+,2,31,,,,Bob,SFO,MCO,2024-06-02 08:00,2024-06-02 15:00,420.0,0.0,American Airlines
+,3,2,,,,Charlie,MCO,JFK,2024-06-05 12:00,2024-06-05 15:00,300.0,0.0,Delta
+,4,24,,,,David,LAS,MCO,2024-06-06 10:00,2024-06-06 13:00,340.0,0.0,American Airlines
+,4,76,,,,David,LAS,MCO,2024-06-06 10:00,2024-06-06 13:00,340.0,0.0,American Airlines
+,1,105,,,,Alice,JFK,MCO,2024-06-02 08:00,2024-06-02 11:00,300.0,0.0,Delta
+,2,31,,,,Bob,SFO,MCO,2024-06-02 08:00,2024-06-02 15:00,420.0,0.0,American Airlines
+,1,5,,,,Alice,JFK,LAS,2024-06-02 09:00,2024-06-02 12:00,400.0,0.0,American Airlines
+,1,105,,,,Alice,JFK,MCO,2024-06-02 08:00,2024-06-02 11:00,300.0,0.0,Delta
+,2,31,,,,Bob,SFO,MCO,2024-06-02 08:00,2024-06-02 15:00,420.0,0.0,American Airlines
